@@ -1153,7 +1153,7 @@
 				AAAAAAAAAAAAAAAAAAA=
 				</data>
 				<key>boot-args</key>
-				<string>-igfxblt -vi2c-force-polling</string>
+				<string>-igfxblt -vi2c-force-polling -btlfxboardid</string>
 				<key>csr-active-config</key>
 				<data>
 				AwoAAA==
