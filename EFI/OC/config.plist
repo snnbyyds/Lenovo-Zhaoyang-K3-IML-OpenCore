@@ -1069,20 +1069,20 @@
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>2147483650</integer>
+			<integer>0</integer>
 			<key>LogModules</key>
-			<string>*</string>
+			<string></string>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
 		<array/>
 		<key>Security</key>
 		<dict>
 			<key>AllowSetDefault</key>
-			<true/>
+			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -1153,7 +1153,7 @@
 				AAAAAAAAAAAAAAAAAAA=
 				</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 -igfxblt -vi2c-force-polling</string>
+				<string>-igfxblt -vi2c-force-polling</string>
 				<key>csr-active-config</key>
 				<data>
 				AwoAAA==
@@ -1368,7 +1368,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>

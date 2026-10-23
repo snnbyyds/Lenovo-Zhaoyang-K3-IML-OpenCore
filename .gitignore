@@ -1,0 +1,11 @@
+.DS_Store
+._*
+*.log
+opencore-*.txt
+panic-*.txt
+SysReport/
+*.dSYM/
+/hardware-audit/
+/logs/
+/private/
+*.zip
