@@ -1221,7 +1221,7 @@
 				AAAAAAAAAAAAAAAAAAA=
 				</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 -igfxblt -vi2c-force-polling -btlfxboardid -igfxblr</string>
+				<string>keepsyms=1 -igfxblt -btlfxboardid -igfxblr</string>
 				<key>csr-active-config</key>
 				<data>
 				AwoAAA==
