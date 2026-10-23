@@ -94,6 +94,14 @@
 				<key>Path</key>
 				<string>SSDT-XOSI.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Keep AC adapter visible in macOS; preserve OEM power status</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-ADP1.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -249,6 +257,46 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data>
+				</data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string>\_SB.PCI0.LPCB.H_EC.ADP1._STA</string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>ADP1 _STA to XSTA: keep adapter discoverable on battery boot</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				X1NUQQ==
+				</data>
+				<key>Limit</key>
+				<integer>16</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				Q0ZMICAgICA=
+				</data>
+				<key>Replace</key>
+				<data>
+				WFNUQQ==
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>280219</integer>
+				<key>TableSignature</key>
+				<data>
+				RFNEVA==
 				</data>
 			</dict>
 		</array>
