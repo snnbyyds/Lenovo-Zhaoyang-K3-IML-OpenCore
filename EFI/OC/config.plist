@@ -710,9 +710,9 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>UTBDefault.kext</string>
+				<string>UTBMap.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>K3-IML USB map: 8 ports; internal camera and Bluetooth</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
