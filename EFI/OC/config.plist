@@ -102,6 +102,14 @@
 				<key>Path</key>
 				<string>SSDT-ADP1.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Power off Radeon 630 through OEM RP05.PEGP._OFF</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-DGPU-OFF.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -286,6 +294,46 @@
 				<key>Replace</key>
 				<data>
 				WFNUQQ==
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>280219</integer>
+				<key>TableSignature</key>
+				<data>
+				RFNEVA==
+				</data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string>\_WAK</string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>Root _WAK to XWAK: restore OEM wake then power off dGPU in macOS</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				X1dBSw==
+				</data>
+				<key>Limit</key>
+				<integer>16</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				Q0ZMICAgICA=
+				</data>
+				<key>Replace</key>
+				<data>
+				WFdBSw==
 				</data>
 				<key>ReplaceMask</key>
 				<data>
